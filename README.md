@@ -12,8 +12,6 @@ This CTF involves analyzing a dataset of books and reviews to:
 3. Use ML and SHAP to determine what makes reviews appear genuine vs suspicious
 
 **Student ID**: STU032  
-**Challenge Type**: Data Science + Machine Learning + Forensics
-
 ---
 
 ## Quick Start
@@ -126,22 +124,6 @@ Top words indicating genuine reviews:
 3. **if** - Conditional statements in nuanced reviews
 
 These words contrast with generic superlatives found in suspicious reviews.
-
----
-
-## Key Challenges Solved
-
-### 1. Limited Data
-**Problem**: Only 14 reviews, averaging 5 words each  
-**Solution**: Adjusted thresholds from 20/40 words to 3/5 words
-
-### 2. Labeling Strategy
-**Problem**: No ground truth labels for suspicious vs genuine  
-**Solution**: Created heuristic rules based on review characteristics
-
-### 3. Small Sample SHAP
-**Problem**: SHAP typically needs more data  
-**Solution**: Used Linear SHAP explainer, focused on clearly genuine reviews
 
 ---
 
